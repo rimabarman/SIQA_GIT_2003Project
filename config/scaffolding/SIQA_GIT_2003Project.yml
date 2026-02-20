@@ -24,6 +24,18 @@ services:
   packages:
   - name: SIQA_GIT_2003Project
     version: "1.0"
+- serviceName: project.siqa_git_2003.integrations:Sum
+  packages:
+  - name: SIQA_GIT_2003Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
 - serviceName: project.siqa_git_2003.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_2003Project
